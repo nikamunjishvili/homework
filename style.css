@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: -10px;
+  width: 100%;
+  height: 100vh;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-color: red;
+  
+}
+
+.box_item {
+  width: 90px;
+  height: 90px;
+  background-color: blue;
+  position: sticky;
+}
+
+.box_item_2 {
+  width: 90px;
+  height: 90px;
+  background-color: green;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.navigation {
+  width: 100%;
+  height: 15vh;
+  background-color: gray;
+  z-index: 1;
+}
+
+.navigation > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+  list-style: none;
+}
+
+.hello{
+    background-color: green;
+    color: red;
+    position: sticky;
+    top: 10px;
+}
+
+.box_container{
+    position: absolute;
+} */
+
+/* img{
+    opacity: 0.3;
+}
+
+img:hover{
+    opacity: 1;
+} */
+
+h1{
+    text-transform: uppercase;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+}
