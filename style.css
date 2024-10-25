@@ -1,73 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
-  margin: -10px;
   width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf2ff;
 }
-.box {
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  background-color: red;
-  
+
+.result_summery_card {
+  width: 736px;
+  height: 512px;
+  background-color: #ffffff;
+  border-radius: 32px;
+  display: flex;
+}
+
+.result_side {
+  width: 100%;
+  background: linear-gradient(#7755ff, #6943ff, #2f2ce9);
+  border-radius: 32px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result_side > h1 {
+  font-size: 24px;
+  color: #cac9ff;
+  text-align: center;
+}
+
+.result_card_circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(#4d21c9, #2521c900, #2521c900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.result_card_circle > h1 {
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.result_card_circle > h3 {
+  color: #cac9ff;
+  font-size: 18px;
+}
+.summery_side {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 32px;
+}
+
+.bottom_side {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bottom_side > h1 {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.bottom_side > p {
+  color: #cac9ff;
 }
 
 .box_item {
-  width: 90px;
-  height: 90px;
-  background-color: blue;
-  position: sticky;
-}
-
-.box_item_2 {
-  width: 90px;
-  height: 90px;
-  background-color: green;
-  margin: 10px;
-  margin-left: 20px;
-}
-
-.navigation {
   width: 100%;
-  height: 15vh;
-  background-color: gray;
-  z-index: 1;
-}
-
-.navigation > ul {
+  height: 56px;
+  border-radius: 12px;
+  background-color: #ff5555;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  height: 15vh;
-  list-style: none;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px;
 }
 
-.hello{
-    background-color: green;
-    color: red;
-    position: sticky;
-    top: 10px;
+.summery_side {
+  padding: 30px;
 }
 
-.box_container{
-    position: absolute;
-} */
-
-/* img{
-    opacity: 0.3;
-}
-
-img:hover{
-    opacity: 1;
-} */
-
-h1{
-    text-transform: uppercase;
-    font-family: "Hanken Grotesk", sans-serif;
-    font-weight: 700;
+button {
+  color: white;
+  background-color: #303b59;
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 128px;
+  cursor: pointer;
+  margin-top: 20px;
 }
